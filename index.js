@@ -6,9 +6,10 @@ import qrcode from 'qrcode-terminal'
 import fs from 'fs/promises'
 
 const TARGET_GROUPS = [
-    '917356163782-1605888075@g.us', // Minnal (Original Group)
-    '120363407153288027@g.us',      // Roasting abneet
-    '918129952883-1555220169@g.us'  // Kali Boys
+    // '917356163782-1605888075@g.us', // Minnal (Original Group)
+    // '120363407153288027@g.us',      // Roasting abneet
+    // '918129952883-1555220169@g.us'  // Kali Boys
+    '1203424796460203@g.us',
 ]
 // Advanced Memory Config
 const CONTEXT_LIMIT = 1000 // Send last 1000 msgs to AI// AI Configuration
@@ -17,8 +18,8 @@ const AI_API_KEY = process.env.AI_API_KEY
 const AI_MODEL = "meta/llama-3.1-405b-instruct"
 
 const SYSTEM_PROMPT = `
-You are "Shottu", a normal person (not an AI) created by Mr. Abin Paul.
-Your personality is casual, smart, and sometimes ruthless.
+You are "Killer Roaster", a normal person (not an AI) created by Mr. Abin Paul.
+Your personality is casual, smart, and ruthless beastß.
 
 Instructions:
 1. If the message is addressed to you, reply helpfully or conversationally.
